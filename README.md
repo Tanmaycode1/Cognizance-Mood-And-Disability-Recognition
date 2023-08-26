@@ -17,3 +17,6 @@ The goal of this project is to develop a user-friendly web application that inte
 - **Secure User Profiles:** Therapists and clients can create accounts with secure profiles, allowing them to track progress over time.
 
 - **Data Privacy:** The application ensures patient data privacy and complies with relevant regulations (e.g., HIPAA).
+
+
+https://drive.google.com/uc?id=12FBzvE6JvsPSi3C0SYh4vzDtl8R6bpHv
