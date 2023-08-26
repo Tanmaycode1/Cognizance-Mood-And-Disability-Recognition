@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            Therapists - Home Page
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><b>SpackCock</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lists</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                  <a href="/logout">  <button type="button" class="btn btn-info">logout</button></a>
+              </span>
+            </div>
+          </nav>
+          <img src="../static/iStock-1186272256-32d4968ff86a4e3e8509be66a7445021.jpeg" width="100%" height="60%" style="filter: brightness(40%);">
+          <h1 style="font-size: 60px; color: white; position: absolute; top: 30%; left: 30%;">Welcome, {{user.name}}</h1>
+          <table class="table table-striped" style="text-align: center; margin-top: 30px;">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">patient_id</th>
+                <th scope="col">Name</th>
+                <th scope="col">time</th>
+                <th scope="col">date</th>
+                <th scope="col">number</th>
+              </tr>
+            </thead>
+            <tbody style="text-align: center;">
+
+              <tr>
+                <th scope="row">1</th>
+                <th scope="row">1</th>
+                <td>Tanmay Arora</td>
+                <td>xx:xx am</td>
+                <td>xx/xx/xxxx</td>
+                <td>+919625336696</td>
+                <td><a href="/videocall"><button type="button" class="btn btn-primary">Primary</button></td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+</html>
