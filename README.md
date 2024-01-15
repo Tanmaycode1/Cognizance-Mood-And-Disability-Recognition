@@ -57,6 +57,3 @@ The goal of this project is to develop a user-friendly web application that inte
 - [Tanmaycode1](https://github.com/Tanmaycode1)
 
 
----
-
-Feel free to customize it according to your needs!
